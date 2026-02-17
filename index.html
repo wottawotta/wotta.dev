@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wotta dsp</title>
+    <meta
+      name="description"
+      content="wotta dsp — practical software for musicians and more."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #000;
+        color: #fff;
+        font-family: "Space Grotesk", sans-serif;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+      }
+
+      .layout {
+        display: flex;
+        align-items: flex-end;
+        gap: 4rem;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      h1 {
+        font-size: clamp(3rem, 10vw, 8rem);
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.03em;
+        text-transform: lowercase;
+        transform: scaleY(4);
+        transform-origin: bottom;
+        white-space: nowrap;
+      }
+
+      p {
+        font-size: clamp(1rem, 2vw, 1.25rem);
+        font-weight: 300;
+        line-height: 1.6;
+        max-width: 540px;
+        color: #aaa;
+        margin-bottom: 2rem;
+      }
+
+      a {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 400;
+        text-decoration: none;
+        border-bottom: 1px solid #444;
+        padding-bottom: 2px;
+        transition: border-color 0.2s;
+      }
+
+      a:hover {
+        border-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <h1>wotta dsp</h1>
+
+      <div class="content">
+        <p>
+          im a developer working on practical software for musicians and more.
+          check back soon for more updates!
+        </p>
+        <a href="https://github.com/wottawotta" target="_blank" rel="noopener"
+          >github →</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
